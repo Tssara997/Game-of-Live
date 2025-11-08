@@ -1,7 +1,7 @@
 #include "Grid.h"
 
 int main() {
-	Grid g{};
+	Grid g{60, 30};
 	while (true) {
 		g.draw();
 		g.checkForUpdates();
